@@ -1,0 +1,22 @@
+fun main() {
+    sumar(10, 20)
+    restar(20, 10)
+    multiplicar(40, 10)
+    dividir(10, 10)
+}
+
+fun sumar(i: Int, i1: Int) {
+    println("La suma es: ${i + i1}" )
+}
+
+fun restar(i: Int, i1: Int) {
+    println("La resta es: ${i - i1}" )
+}
+
+fun multiplicar(i: Int, i1: Int) {
+    println("La multiplicación es: ${i * i1}" )
+}
+
+fun dividir(i: Int, i1: Int) {
+    println("La divición es: ${i / i1}" )
+}
